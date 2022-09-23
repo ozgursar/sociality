@@ -1,0 +1,111 @@
+.sidebar-outer {
+  background-color: #3e4247;
+}
+
+.brands {
+  background-color: #2a2f33;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.menuicon {
+  color: #f55661;
+}
+
+.menu-item-active {
+  background-color: #f55661;
+}
+
+.menu-item-active .menuicon {
+  color: #fff;
+}
+
+.selectedClient {
+  border-left: 3px solid #f55661;
+}
+
+.submenu {
+  position: relative;
+  background-color: #32363a;
+}
+
+.submenu::before {
+  position: absolute;
+  left: 16px;
+  top: -8px;
+  font-family: 'bootstrap-icons';
+  content: '\F229';
+  color: #f55661;
+}
+
+.submenu ul {
+  padding-left: 18px;
+  color: #ccc;
+}
+
+.submenu .active {
+  color: #f55661;
+}
+
+.counter {
+  display: block;
+  font-size: 0.65em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1px 4px;
+}
+
+.action-icon {
+  cursor: pointer;
+}
+
+.action-icon:hover {
+  opacity: 1;
+  color: #000;
+}
+
+.status-need-approval {
+  background-color: #f7bf38;
+}
+
+.color-need-approval {
+  color: #f7bf38;
+}
+
+.status-scheduled {
+  background-color: #3ac183;
+}
+
+.color-scheduled {
+  color: #3ac183;
+}
+
+.status-publishing {
+  background-color: #acacac;
+}
+
+.status-published {
+  background-color: #acacac;
+}
+
+.color-published {
+  color: #acacac;
+}
+
+.status-error {
+  background-color: #fb6450;
+}
+
+.status-error {
+  background-color: #fb6450;
+}
+
+.color-error {
+  color: #fb6450;
+}
+
+.color-notes {
+  color: #67b1f2;
+}
